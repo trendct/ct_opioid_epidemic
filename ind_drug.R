@@ -6,7 +6,7 @@
 ## install.packages("ggplot2")
 
 
-ind <- read.csv("http://ctdata.org/dataset/925c6ee5-daa1-45a4-b71a-5e9dc965024c/resource/26522dd7-6860-47be-8cdc-2b0911dfd877/download/accidentaldrugrelateddeathsbyindividualdrugsdetected.csv")
+ind <- read.csv("http://data.ctdata.org/dataset/925c6ee5-daa1-45a4-b71a-5e9dc965024c/resource/26522dd7-6860-47be-8cdc-2b0911dfd877/download/accidentaldrugrelateddeathsbyindividualdrugsdetected.csv")
 ind$RE <- paste(ind$Race, ind$Ethnicity)
 
 library(ggplot2)

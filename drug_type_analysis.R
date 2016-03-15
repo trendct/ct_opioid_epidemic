@@ -1,7 +1,7 @@
 library(dplyr)
 library(tidyr)
 
-acc <- read.csv("data/accidentaldrugrelateddeathsbydrugtype.csv")
+acc <- read.csv("http://data.ctdata.org/dataset/a4ad31a4-4d6c-41c5-9e32-72bdd1c4fcd0/resource/882710c3-a9ec-4e36-9138-33dcc3ee35ba/download/accidentaldrugrelateddeathsbydrugtype.csv")
 
 acc$RE <- paste(acc$Race, acc$Ethnicity)
 

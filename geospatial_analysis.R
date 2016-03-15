@@ -16,7 +16,7 @@
 ## install.packages("devtools")
 ## install.packages("raster")
 ## install.packages("sp")
-
+## install.packages("lubridate")
 require(scales)
 require(dplyr)
 require(gtools)
@@ -31,6 +31,7 @@ library(devtools)
 library(stringr)
 library(raster)
 library(sp)
+library(lubridate)
 ## install_github("trendct/ctnamecleaner")
 library(ctnamecleaner)
 
